@@ -1,0 +1,499 @@
+:root {
+    --primary-color: #FF4800;
+    --segund-color: #8A8A8A;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 40px;
+    padding-top: 10px;
+}
+
+#logo img {
+    width: 150px;
+}
+
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000000;
+    padding: 45px 5px 15px 5px;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+
+}
+
+#btn-nav button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+#btn-nav button:hover {
+    color: black;
+}
+
+#nav-bar {
+    display: flex;
+    height: 50vh;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: url('./IMG/navio.jpg') center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+
+
+}
+
+#cabecalho h2 {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#cabecalho h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#input-cabecalho {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+#input-cabecalho input {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px;
+    margin-right: 0;
+    width: 20vw;
+    outline: 0;
+}
+
+#input-cabecalho button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#input-cabecalho button:hover {
+    color: black;
+
+}
+
+#container-section {
+    display: flex;
+    margin-top: 50px;
+    background-color: #efeeee;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto-section {
+    width: 40vw;
+    height: 30vh;
+}
+
+#texto1 h2 {
+    color: var(--primary-color);
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+#texto1 p {
+    margin-top: 10px;
+    color: var(--segund-color);
+}
+
+#section-numeros {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#section-numeros p:first-child {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+#section-numeros p {
+    font-weight: bold;
+}
+
+#container-form {
+    display: flex;
+    margin-left: 20px;
+    width: 30vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#form-inputs input {
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+    outline: 0;
+}
+
+#form-inputs select {
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+    outline: 0;
+}
+
+
+#form-inputs button {
+    background-color: #1F1F2E;
+    color: white;
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+    outline: 0;
+}
+
+
+#form-inputs button:hover {
+    color: var(--primary-color);
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.cabecalhos p {
+    margin: 10px 0 10 0;
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+
+
+.cabecalhos h2 {
+    font-weight: bold;
+
+}
+
+.plano {
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.planos1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #efeeee;
+    height: 55vh;
+    width: 20vw;
+
+}
+
+.planos1 h2::before {
+    content: "$";
+    color: var(--segund-color);
+    font-size: 15px;
+}
+
+.planos1 h2::after {
+    content: "/Mo";
+    color: var(--segund-color);
+    font-size: 15px;
+}
+
+.planos1 p {
+    background-color: var(--primary-color);
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.planos1 ul {
+    list-style: none;
+    font-size: 15px;
+    color: var(--segund-color);
+}
+
+.planos1 li {
+    padding: 5px;
+}
+
+.planos1 button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.planos1 button:hover {
+    color: black;
+}
+
+.time1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #efeeee;
+    width: 15vw;
+    height: 32vh;
+    border-bottom: solid 5px #ca653d;
+
+}
+
+.time1:hover {
+    border-bottom: solid 5px var(--primary-color);
+
+
+}
+
+.time1 img {
+    margin-bottom: 20px;
+    width: 15vw;
+    height: 20vh;
+}
+
+.time1 h2 {
+    font-size: 15px;
+}
+
+.blog1 {
+    background-color: #efeeee;
+    height: 75vh;
+    width: 30vw;
+
+}
+
+.blog1 img {
+    width: 30vw;
+    height: 40vh;
+}
+
+.foto-blog {
+    display: flex;
+    justify-content: right;
+    height: 43vh;
+}
+
+.foto-blog p {
+    position: absolute;
+    margin: 230px 20px 0 0;
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    width: 3vw;
+    height: 7vh;
+}
+
+.foto-blog p::before {
+    content: "01";
+    color: #1F1F2E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rodape-blog {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.rodape-blog p {
+    color: var(--segund-color);
+}
+
+.bi-bookmark {
+    color: var(--primary-color);
+}
+
+.rodape-blog img {
+    margin-left: 10px;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.text-blog {
+    display: flex;
+    margin: 20px 0 0 10px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text-blog h2 {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.text-blog p {
+    color: var(--segund-color);
+    margin-bottom: 15px;
+}
+
+.text-blog a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F2E;
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#endereco {
+    width: 50vw;
+}
+
+#links {
+    width: 40vw;
+    cursor: pointer;
+}
+
+#links li:hover {
+    color: var(--primary-color);
+}
+
+#rede-social svg {
+    margin-left: 5px;
+}
+
+
+#rede-social svg:hover {
+    color: var(--primary-color);
+}
+
+.container-footer {
+    margin: 20px;
+    color: white;
+}
+
+.container-footer h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.container-footer li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+
+#input-newsletter {
+    display: flex;
+    margin-top: 15px;
+}
+
+#input-newsletter input {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px;
+    margin-right: 0;
+    width: 37vw;
+    outline: 0;
+}
+
+#input-newsletter button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+}
+
+#input-newsletter button:hover {
+    color: black;
+
+}
+
+#copy {
+    border-top: solid 1px var(--segund-color);
+    height: 10vh;
+    color: white;
+}
+
+#copy p {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#copy p::before{
+    content: "Your Site Name.";
+    color: var(--primary-color);
+}
+
+#copy p::after{
+    content: " HTML Codex";
+    color: var(--primary-color);
+}
+
+#copy span {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+
+}
+
+#copy span::after{
+    content: " ThemeWgon";
+    color: var(--primary-color);
+}
