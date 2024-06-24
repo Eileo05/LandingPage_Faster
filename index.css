@@ -476,12 +476,12 @@ footer {
     font-size: 15px;
 }
 
-#copy p::before{
+#copy p::before {
     content: "Your Site Name.";
     color: var(--primary-color);
 }
 
-#copy p::after{
+#copy p::after {
     content: " HTML Codex";
     color: var(--primary-color);
 }
@@ -493,7 +493,118 @@ footer {
 
 }
 
-#copy span::after{
+#copy span::after {
     content: " ThemeWgon";
     color: var(--primary-color);
+}
+
+@media screen and (min-width: 350px) and (max-width:800px) {
+
+    header {
+        margin: 0 20px 0 20px;
+        padding-top: 5px;
+    }
+
+    #logo img {
+        width: 75px;
+    }
+
+
+    #btn-nav button {
+        font-size: 10px;
+        padding: 5px 20px 5px 20px;
+
+    }
+
+    nav a {
+        padding: 0%;
+    }
+
+    nav a:hover {
+        background-color: rgb(0, 0, 0, 0);
+        color: var(--primary-color);
+    }
+
+    #input-cabecalho input {
+
+        width: 50vw;
+
+    }
+
+    #input-cabecalho button {
+        font-size: 10px;
+        padding: 4px;
+
+    }
+
+
+    #texto1 {
+
+        margin-left: 10px;
+    }
+
+    #texto1 h2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+
+    }
+
+    #texto1 p {
+        margin-top: 10px;
+        font-size: 15px;
+        color: var(--segund-color);
+    }
+
+    #container-section {
+        margin-top: 50px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 80vh;
+    }
+
+    #section-numeros {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    #section-numeros p{
+        font-size: 10px;
+    }
+
+    #section-numeros p:first-child {
+        font-size: 15px;
+    
+    }
+
+    #container-form {
+        width: 50vw;
+        height: 65vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+#form-inputs input {
+    width: 50vw;
+    margin: 5px;
+    padding: 5px;
+}
+
+#form-inputs select {
+    width: 50vw;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+#form-inputs button {
+    width: 50vw; 
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
 }
