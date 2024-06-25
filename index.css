@@ -606,5 +606,69 @@ footer {
 }
 
 
+.plano {
+    display: block;
+    width: 100%;
+}
+
+
+.planos1 {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.time1{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.time1 img {
+    width: 60vw;
+    height: 20vh;
+}
+
+.blog1{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 10px;
+}
+
+.foto-blog{
+    height: auto;
+}
+
+.foto-blog img {
+    width: 69vw;
+    height: 30vh;
+}
+
+.foto-blog p {
+    margin: 170px 10px 0 0;
+    width: 9vw;
+    height: 7vh;
+}
+
+.rodape-blog img {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.rodape-blog p {
+    margin-top: 15px;
+   
+}
+
+#container {
+    display: block;
+}
+
+#copy{
+    height: 15vh;
+}
 
 }
